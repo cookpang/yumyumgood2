@@ -766,10 +766,26 @@ function addUserInfo(result) {
 		text += `
 		<div class="follower-box1">
 			<!-- 팔로워 프로필 사진 -->
-			 <div class="follower-img">
+			 <div class="follower-img">`
+				
+				if(info.userProfileImageSystemName==null){
+			text+=	`
 			<img
-		src="/upload/${info.userProfileImageSystemName}"
-				alt="${info.userProfileImageSystemName}" class="follower-img2" />
+		src="https://www.thechooeok.com/common/img/default_profile.png"
+				alt="${info.userProfileImageSystemName}" class="following-img2" />
+				
+				`
+				
+			}else {
+				text+=	`		
+					<img
+				src="/upload/${info.userProfileImageSystemName}"
+						alt="${info.userProfileImageSystemName}" class="following-img2" />
+						
+						`
+			}
+			
+		text+=`
 			</div>		
 			<!-- 팔로워 이름, 아이디 -->
 			<div class="follower-nickname">

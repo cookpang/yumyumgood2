@@ -421,7 +421,7 @@
 						<li class="sidebar-li">
 							<div class="li-box">
 
-								<i class="fa-solid fa-house"></i> <a href="#">홈</a>
+								<i class="fa-solid fa-house"></i> <a href="${pageContext.request.contextPath}/mainOk.m">홈</a>
 							</div>
 						</li>
 						<li class="sidebar-li">
