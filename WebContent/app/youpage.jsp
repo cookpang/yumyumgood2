@@ -30,7 +30,7 @@
 							<c:choose>
 								<c:when test="${empty userInfo.getUserProfileImageSystemName()}">
 									<div id="img-box">
-										<img
+										<img alt=""
 											src="https://www.thechooeok.com/common/img/default_profile.png"
 											class="profile-img" />
 									</div>
