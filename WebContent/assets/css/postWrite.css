@@ -277,11 +277,11 @@ ul {
 .wirte-box-imgs-next {
 	height: 10%;
 	position: absolute;
-	right : -62px;
+	right : 14px;
 }
 
 .next-btn i{
-	margin: 10px;
+	margin-right: 3px;
 }
 
 

@@ -158,7 +158,7 @@ $('.user-serch-btn').on('click', function() {
 });
 
 // 회원삭제 submit버튼의 이벤트제거
-$(".user-delete-form").on("submit", function(event) {
+/*$(".user-delete-form").on("submit", function(event) {
   event.preventDefault();
 });
 
@@ -177,7 +177,7 @@ $("#user-serch").on("keyup", function(event) {
 		updatePage(1);
 	}
  }
-});
+});*/
 
 
 
@@ -278,7 +278,7 @@ $('.post-serch-btn').on('click', function() {
 });
 
 // 게시글 삭제 submit버튼의 이벤트제거
-$(".post-delete-form").on("submit", function(event) {
+/*$(".post-delete-form").on("submit", function(event) {
   event.preventDefault();
 });
 
@@ -297,7 +297,7 @@ $("#post-search").on("keyup", function(event) {
 	}
  }
 });
-
+*/
 // ==========결제 관리 추가정보js======
 
 
